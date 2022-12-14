@@ -691,13 +691,16 @@ button:hover {
 }
 
 .testimonial-text i {
-  font-size: 18px;
+  font-size: 50px;
   font-weight: 400;
   font-style: italic;
-  padding: 0 15px 15px;
+  /* padding: 0 15px 15px; */
   color: #f55f8d;
   margin-bottom: 20px;
   transform: rotate(-180deg);
+  position: absolute;
+  display: block;
+  top: 20px;
 }
 
 .flaticon-quotation:before {
@@ -880,8 +883,8 @@ button:hover {
   padding: 15px;
 }
 
-.blog__footer .comment{
-  color: #888
+.blog__footer .comment {
+  color: #888;
 }
 
 .blog__footer p i {
@@ -898,8 +901,6 @@ button:hover {
 .blog__footer p {
   align-items: center;
 }
-
-
 
 /* Footer */
 
