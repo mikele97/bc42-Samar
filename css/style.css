@@ -697,6 +697,11 @@ button:hover {
   padding: 0 15px 15px;
   color: #f55f8d;
   margin-bottom: 20px;
+  transform: rotate(-180deg);
+}
+
+.flaticon-quotation:before {
+  content: "\f121";
 }
 
 .testimonial-position {
@@ -822,7 +827,7 @@ button:hover {
   padding-bottom: 50px;
 }
 
-.blog__item {
+.blog__items {
   text-align: left;
   background: rgba(245, 95, 141, 0.1);
   border-radius: 8px;
@@ -875,6 +880,10 @@ button:hover {
   padding: 15px;
 }
 
+.blog__footer .comment{
+  color: #888
+}
+
 .blog__footer p i {
   color: #f55f8e;
   margin-right: 3px;
@@ -889,6 +898,8 @@ button:hover {
 .blog__footer p {
   align-items: center;
 }
+
+
 
 /* Footer */
 
@@ -996,7 +1007,7 @@ footer::before {
 }
 
 .footer__contact li {
-  padding: 0.5rem 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
 }
@@ -1077,10 +1088,11 @@ footer::before {
   background-color: #1f343b;
   padding: 10px 0;
   position: relative;
+  margin: 0 -120px;
 }
 
 .footer__copycontent {
-  width: 90%;
+  width: 83%;
   margin: auto;
   display: flex;
   align-items: center;
