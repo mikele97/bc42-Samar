@@ -691,10 +691,9 @@ button:hover {
 }
 
 .testimonial-text i {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 400;
   font-style: italic;
-  /* padding: 0 15px 15px; */
   color: #f55f8d;
   margin-bottom: 20px;
   transform: rotate(-180deg);
@@ -703,10 +702,21 @@ button:hover {
   top: 20px;
 }
 
+.testimonial-text{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 15px 15px;
+  color: #888;
+}
+
 .flaticon-quotation:before {
   content: "\f121";
 }
 
+.testimonial-text p{
+  margin: 25px 15px;
+  font-style: italic;
+}
 .testimonial-position {
   font-size: 18px;
   font-weight: 400;
