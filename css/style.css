@@ -904,12 +904,16 @@ button:hover {
   vertical-align: sub;
 }
 
+.blog__footer .by{
+  color: #888;
+}
 .blog__footer span {
   color: #f55f8e;
-  margin-right: 15px;
+  
 }
 .blog__footer p {
   align-items: center;
+  padding-right: 15px;
 }
 
 /* Footer */
